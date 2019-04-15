@@ -69,7 +69,7 @@ LiquidCrystal_PCF8574::LiquidCrystal_PCF8574(uint8_t addr)
 } // LiquidCrystal_PCF8574
 
 
-void LiquidCrystal_PCF8574::begin(uint8_t cols, uint8_t lines, uint8_t dotsize) {
+void LiquidCrystal_PCF8574::begin(uint8_t /* cols */, uint8_t lines, uint8_t dotsize) {
   // cols ignored !
   _numlines = lines;
 
